@@ -1,0 +1,31 @@
+.nav {
+  a {
+    color: #999;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    li a {
+      color: #999;
+      font-size: 0.9rem;
+      margin-right: 1.3rem;
+      text-decoration: none;
+      &:hover {
+        color: #666;
+      }
+      &.active {
+        color: #444;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.header {
+  padding: 1rem 0 3rem;
+  h1 a {
+    color: black;
+    text-decoration: none;
+  }
+}
